@@ -1,0 +1,14 @@
+.nav{
+    float: left;
+    margin-left: 45px;
+}
+.nav a{
+    text-decoration: none;
+    font-family: "Calibri";
+    font-size: 18px;
+    color: black;
+}
+.nav a:hover{
+    transition: 0.5s;
+    color: pink;
+}

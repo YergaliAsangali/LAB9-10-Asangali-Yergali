@@ -1,0 +1,490 @@
+.app-wrapper{
+    display:grid;
+    justify-content: center;
+}
+
+.button{
+    position: absolute;
+    top: 5px;
+    left: 930px;
+    height: 33px;
+    width: 100px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 13px;
+    border: 1px solid black;
+    background: rgb(197, 197, 197);
+    color:white;
+}
+.button:hover{
+    cursor: pointer;
+    background: rgb(126, 126, 126);
+}
+
+.header{
+    background-color: #ECECEC;
+}
+.top-menu{
+    display: flex;
+    border-right:thin black;
+    border-left:1px groove black;
+    border-bottom: none;
+    border-top: none;
+}
+.top-menu-bot{
+    display: flex;
+    background-color: white;
+    border-right:1px groove black;
+    border-left:1px groove black;
+    border-bottom:1px groove black;
+    border-top: 1px groove black;
+    height: 60px;
+}
+.top-menu-1{
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border-right:thin black;
+    border-left:thin black;
+    border-bottom: none;
+    border-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    font-size: 0.9em;
+}
+.top-menu-2{
+    text-align: center;
+    border: 1px outset ;
+    border-right:thin black;
+    border-left:thin black;
+    border-bottom: none;
+    border-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+.top-menu-3{
+    text-align: center;
+    border: 1px outset ;
+    border-right:thin black;
+    border-left:1px groove black;
+    border-bottom: none;
+    border-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+.top-menu-4{
+    text-align: center;
+    border: 1px outset ;
+    border-right:thin black;
+    border-left:1px groove black;
+    border-bottom: none;
+    border-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+.top-menu-5{
+    text-align: center;
+    border: 1px outset ;
+    border-right:1px groove black;
+    border-left:1px groove black;
+    border-bottom: none;
+    border-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+.top-child{
+    color: #A9A9A9;
+}
+.upMenu{
+    display: flex;
+}
+.helpImg{
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.help{
+    top: 5px;
+    background-color: #FDDA0D;
+    position: relative;
+    display: block;
+    left: 130px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 90px;
+    height: 30px;
+}
+.number{
+    top: 5px;
+    position: relative;
+    left: 145px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 90px;
+    height: 30px;
+    background-color: #D3D3D3;
+}
+.telImg{
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.T{
+    left: 10px;
+    top: 20%;
+    position: relative;
+    text-align: center;
+}
+.H{
+    left: 10px;
+    top: 10%;
+    position: relative;
+    text-align: center;
+}
+.r{
+    top: 10%;
+    position: relative;
+    text-align: center;
+}
+.k{
+    top: 10%;
+    position: relative;
+    text-align: center;
+}
+.KZ{
+    left: 160px;
+    text-align: center;
+    position: relative;
+    display: block;
+    top: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 45px;
+    height: 30px;
+    background-color: #D3D3D3;
+}
+.RU{
+    left: 155px;
+    top: 5px;
+    text-align: center;
+    position: relative;
+    display: block;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 45px;
+    height: 30px;
+    background-color: #D3D3D3;
+}
+
+.choc{
+    position: relative;
+}
+
+.city{
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+.searchLabel{
+
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+#buttonFind{
+    transition: 0.5s linear;
+    top: 10px;
+    position: relative;
+    left: 80px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #ECECEC;
+    width: 80px;
+    cursor: pointer;
+}
+#buttonEnter{
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.5s linear;
+    top: 10px;
+    position: relative;
+    left: 160px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #FDDA0D;
+    width: 90px;
+    cursor: pointer;
+}
+.createAcc{
+    position: relative;
+    top: 20px;
+    left: 190px;
+}
+.cart{
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    left: 250px;
+}
+#naviMen{
+    display: flex;
+    position: relative;
+    top: 10px;
+    border-right:1px groove black;
+    border-left:1px groove black;
+    border-bottom: 1px groove black;
+    border-top: 1px groove black;
+    height: 50px;
+    background-color: white;
+}
+.Men{
+
+    bottom: 5px;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.Men:hover{
+    transition: 0.5s;
+    color: crimson;
+}
+
+
+
+#buttonEnter:hover{
+    background-color: #FFFF33;
+}
+#buttonFind:hover{
+    background-color: white;
+}
+input{
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+}
+input:focus{
+
+    border: 4px solid #FDDA0D;
+}
+::placeholder {
+    position: relative;
+    left: 10px;
+}
+
+.content1 {
+    top: 30px;
+    display: flex;
+    position: relative;
+
+}
+.sales{
+    font-size: 22pt
+}
+.showAll{
+    top: 13px;
+    position: relative;
+    left: 30px;
+}
+.content2{
+    top: 50px;
+    display: flex;
+    position: relative;
+}
+.content3{
+    top: 70px;
+    display: flex;
+    position: relative;
+    height: 1000px;
+}
+
+.goods1{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 520px;
+    height: 200px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slide-track{
+    display: flex;
+    width: calc(520px*3);
+    animation: scroll 15s linear infinite;
+}
+.slide-track:hover{
+    animation-play-state: paused;
+}
+.slide{
+    width: 520px;
+    height: 200px;
+    align-items: center;
+    perspective: 100px;
+}
+.con1{
+    background-image: url('https://chocolife.object.pscloud.io/static/banners/03/d8/03d802581e978765398b0ee96deadf30.png');
+}
+.con2{
+    background-image: url('https://chocolife.object.pscloud.io/static/banners/d3/e8/d3e8b265b29b144ed5663a9018ce79a1.png');
+}
+.con3{
+    background-image: url('https://chocolife.object.pscloud.io/static/banners/be/ff/beffb8767346d33a351eb2b06604782c.png');
+}
+.goods2{
+    position: relative;
+    left: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 520px;
+    height: 200px;
+
+    background-image: url("https://chocolife.object.pscloud.io/static/banners/04/85/0485dace3fd0921f4cf9ccf438b757ab.png");
+}
+.stuff{
+
+    height: 159px;
+    width: 340px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+}
+.zero{
+    background-image: url('https://static.chocolife.me/static/upload/images/deal/for_deal_page/56000/55086/340x158/202204140845262578b9486487.webp?1649977701');
+}
+.one{
+    position: relative;
+    left: 30px;
+    background-image: url('https://static.chocolife.me/static/upload/images/deal/for_deal_page/56000/55088/340x158/20220413054146256b626f2fd4.webp?1649977702');
+}
+.two{
+    position: relative;
+    left: 60px;
+    background-image: url('https://static.chocolife.me/static/upload/images/deal/for_deal_page/55000/54714/340x158/11_2019122505124215772734420149.webp?1649977430');
+}
+.stuffInfo{
+    position: relative;
+    top: 135px;
+    color: black;
+}
+.InfoChild{
+    color: #A9A9A9;
+    font-size: 11pt;
+}
+.star-rating{
+    right: 8px;
+    display: flex;
+    top: 135px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    user-select: none;
+
+}
+.price{
+    left: 240px;
+    background-color: #A9A9A9;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    right: 8px;
+    display: flex;
+    top: 125px;
+    color: black;
+    font-weight: bold;
+}
+
+.star{
+    position: relative;
+    display: flex;
+    font-size: 30px;
+    color: #ff9800;
+    background-color: unset;
+    border: none;
+}
+.star:hover{
+    cursor: pointer;
+}
+.stuffCon{
+    top: 10px;
+    position: relative;
+    left: 20px;
+    display: flex;
+}
+.stuffBord{
+    width: 200px;
+    border-radius: 50px;
+    border: 2px solid rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    place-items: center;
+    padding-left: 10px;
+}
+.bookmark{
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    width: 25px;
+    left: 60px;
+    display: flex;
+    height: 25px;
+    background-color: wheat;
+}
+.book{
+    top: 2px;
+    position: relative;
+    left: 2px;
+}
+.saleMark{
+    text-align: center;
+    width: 70px;
+    height: 25px;
+    position: relative;
+    top: 115px;
+    left: 2px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #FDDA0D;
+
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-347px*3));
+    }
+}
+
+
+
+.footer{
+    position: relative;
+    top: 90px;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
